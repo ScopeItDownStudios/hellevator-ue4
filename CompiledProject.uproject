@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.15",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "CompiledProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "AnalyticsBlueprintLibrary",
@@ -18,7 +25,7 @@
 		},
 		{
 			"Name": "GoogleAnalytics",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1b3f6c0fc07648b18758f7b883358b3e"
 		}
 	]
